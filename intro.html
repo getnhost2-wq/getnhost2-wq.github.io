@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NHost | home
+  </title>
+  <link rel="stylesheet" href="files/style.css" />
+</head>
+
+<body>
+  <!-- overlay -->
+  <div class="overlay" id="enter">
+    <img src="images/image2.png" alt="logo n shi" />
+    Click to enter..
+  </div>
+  <!-- top bar -->
+  <div class="top-bar">
+    <div class="button-group">
+
+      <button onclick="scroll_to_home_container()">
+        Home
+      </button>
+
+      <span class="separator">|</span>
+
+      <button onclick="scroll_to_features_container()">
+        Read More
+      </button>
+
+      <span class="separator">|</span>
+
+      <button onclick="scroll_to_status_container()">
+        Status
+      </button>
+
+      <span class="separator">|</span>
+        <button onclick="scroll_to_pricing_container()">
+        Pricing
+      </button>
+
+      <span class="separator">|</span>
+        <button onclick="scroll_to_information_container()">
+        Information
+      </button>
+    </div>
+  </div>
+
+  <!-- start (buttons nd logo shi) -->
+  <div class="container" id="home">
+    <h1 class="main-title"><span class="gradient">N</span><span class="shadow">Host</span></h1>
+    <p class="type"> ... </p>
+
+    <div class="buttons">
+      <button class="discord" onclick="window.location.href='mailto:oxycontin@pasted-detected.online'">
+        <img src="images/discord_image_2.png" alt="dc" class="button-icon" />
+        Contact us via our support page 
+      </button>
+
+      <button class="discord" onclick="scroll_to_features_container()">
+        <img src="images/info_icon.png" alt="i" class="button-icon" />
+        Read more
+      </button>
+    </div>
+  </div>
+
+  <!-- middle (features ig?) -->
+  <div class="container" id="features">
+    <p class="sub-title"> Why choose <span class="gradient">us</span>?</p>
+    <p class="text"></p>
+
+    <div class="grid">
+      <div class="block" data-title="one" data-info1="first" data-info2="second">
+        <div class="text-container">
+          <div class="title"><img src="images/idk_icon.png" alt="dc" class="icon" />Clean Interface</div>
+          <div class="info">Designed for effortless usage, simple to navigate, and options that make competition look weak at a glance.
+          </div>
+        </div>
+      </div>
+
+      <div class="block" data-title="three" data-info1="first" data-info2="second">
+        <div class="text-container">
+          <div class="title"><img src="images/money_icon.png" alt="dc" class="icon" />Affordable</div>
+          <div class="info">High performance, low cost. Access premium features without the premium price tag. Friendly,
+            Knowledgeable Support</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- end (status nd prices and uh yah) -->
+  <div class="container" id="status">
+    <p class="sub-title">Current <span class="gradient">status</span></p>
+    <p class="text"></p>
+    <div>
+        <p class="text">While other services experience frequent downtime, that worry is a thing of the past with NHost</p>
+        <div>
+          <br>
+            <p class="text">Last downtime and<span class="gradient"> downtime length </span></p>
+            <br>
+            <p class="text">Most recent downtime:<span class="gradient"> 3 Months ago</span></p>
+            <p class="text">This downtime lasted: <span class = "gradient">22 Minutes</span></p>
+          </div>  
+    </div>
+  </div>
+
+  <div class="container" id="Pricing">
+    <p class="sub-title">Current <span class="gradient">prices </span>for stock builds</p>
+    <p class="text"></p>
+    <div>
+        <p class="text">Premium product without premium prices</p>
+        <div>
+          <br>
+            <p class="text">Plans and<span class="gradient"> payment</span></p>
+            <br>
+            <p class="text">Dedicated monthy:<span class="gradient"> $80</span></p>
+            <p class="text">Dedicated yearly: <span class = "gradient"> $600</span></p>
+            <br>
+            <p class="text">Cloud hosting monthy:<span class="gradient"> $5</span></p>
+            <p class="text">Cloud hosting yearly: <span class = "gradient"> $50</span></p>
+        </div>  
+    </div>
+    <br>
+    <br>
+    <br>
+    <p class="sub-title">What will <span class="gradient">your</span> server run on?</p>
+    <p class="text"></p>
+    <div>
+        <div>
+          <br>
+            <p class="text">Stock<span class="gradient"> dedicated server</span></p>
+            <br>
+            <p class="text">CPU:<span class="gradient"> Ryzen 9950X</span></p>
+            <p class="text">Cores / GHz: <span class = "gradient"> 16 Cores/ 4.3GHz</span></p>
+            <p class="text">Ram: <span class = "gradient"> 128gb</span></p>
+            <p class="text">Storage: <span class = "gradient"> 2x2TB NVMe SSD</span></p>
+            <p class="text">Port / Traffic: <span class = "gradient"> 1Gbps / 50TB</span></p>
+          <br>
+        </div>  
+    </div>
+  </div>
+
+   <div class="container" id="information">
+    <p class="sub-title">Profits and<span class="gradient"> costs</span></p>
+    <p class="text"></p>
+    <div>
+        <div>
+          <br>
+            <p class="text">Electricity:<span class="gradient"> $750 CAD</span> Monthly</p>
+            <p class="text">Rent:<span class="gradient"> $0</span> I live w my mom 💔</p>
+            <p class="text">Rig:<span class="gradient"> $2100 - $2500 CAD</span> Per Build, Can have hundreds of users per</p>
+          </div>  
+    </div>
+  </div>
+
+  <!-- footer (TOS stuffs)-->
+  <footer class="footer">
+    <p>Contact me for commissions at https://t.me/skinnedforcash ♥</p>
+  </footer>
+
+  <script src="files/snow.js"></script>
+  <script src="files/main.js"></script>
+</body>
+
+</html>
+
+
